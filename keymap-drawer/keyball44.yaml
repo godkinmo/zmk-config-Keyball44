@@ -12,7 +12,7 @@ layers:
   - O
   - {t: P, h: mouse}
   - {t: '[', h: mouse, s: '{'}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-control$$', s: '$$mdi:keyboard-tab$$'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -36,7 +36,7 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - function
-  - LGUI
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
