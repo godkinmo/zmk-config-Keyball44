@@ -180,25 +180,25 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   nav:
-  - $$mdi:skip-previous$$
+  - KP NUMLOCK
   - {t: Sft+ 1, s: Sft+ !}
-  - {t: Sft+ 2, s: Sft+ @}
-  - {t: Sft+ 3, s: 'Sft+ #'}
-  - {t: Sft+ 4, s: Sft+ $}
-  - {t: Sft+ 5, s: Sft+ %}
-  - {t: Sft+ 6, s: Sft+ ^}
-  - {t: Sft+ 7, s: Sft+ &}
-  - {t: Sft+ 8, s: Sft+ *}
-  - {t: Sft+ 9, s: Sft+ (}
-  - {t: Sft+ 0, s: Sft+ )}
-  - {t: Sft+ -, s: Sft+ _}
+  - KP 7
+  - KP 5
+  - KP 3
+  - KP 1
+  - KP 9
+  - KP 0
+  - KP 2
+  - KP 4
+  - KP 6
+  - KP 8
   - $$mdi:play-pause$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-tab$$
-  - PgUp
+  - Alt+Gui+ $$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -210,7 +210,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - PgDn
+  - Alt+Gui+ $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
