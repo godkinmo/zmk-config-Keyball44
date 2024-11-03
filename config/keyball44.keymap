@@ -66,6 +66,11 @@
             bindings = <&kp DOWN>;
             key-positions = <1 2>;
         };
+
+        combo_bootloader {
+            bindings = <&bootloader>;
+            key-positions = <11 23 35>;
+        };
     };
 
     keymap {
