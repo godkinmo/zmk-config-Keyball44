@@ -82,7 +82,7 @@
 &grave_escape    &kp Q           &kp W           &kp E        &kp R  &kp T                   &kp Y        &kp U              &kp I        &kp O           &lt 4 P             &lt 4 LBKT
 &ctrl_guialttab  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &kp F  &kp G                   &kp H        &mt RIGHT_SHIFT J  &mt RCTRL K  &mt LEFT_ALT L  &mt RIGHT_GUI SEMI  &lt 5 SQT
 &kp LEFT_SHIFT   &lt 7 Z         &kp X           &kp C        &kp V  &lt 4 B                 &kp N        &kp M              &kp COMMA    &kp DOT         &kp SLASH           &lt 3 BACKSLASH
-&kp LCTRL        &kp LALT        &kp LEFT_GUI    &kp SPACE    &sl 2               &kp ENTER  &super_bscp                                                                      &lt 7 RIGHT
+&kp LCTRL        &kp LALT        &kp LEFT_GUI    &kp SPACE    &sl 2               &kp ENTER  &super_bscp                                                                      &lt 8 RIGHT
             >;
         };
 
@@ -109,10 +109,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp TAB       &none         &kp C_MUTE    &kp C_VOL_DN  &kp C_VOLUME_UP  &out OUT_TOG                  &none  &none  &kp F8  &none  &none     &kp C_VOL_UP
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &none                         &none  &none  &none   &none  &none     &kp C_VOL_DN
-&kp LS(TAB)   &none         &none         &none         &none            &none                         &none  &none  &none   &none  &kp LEFT  &kp RIGHT
-&trans        &trans        &mkp RCLK     &mkp LCLK     &mkp MCLK                          &bt BT_CLR  &none                                  &none
+&kp TAB       &none         &kp C_MUTE    &kp C_VOL_DN  &kp C_VOLUME_UP  &out OUT_TOG                  &none  &none  &kp F8  &none  &kp LG(PLUS)   &kp C_VOL_UP
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4     &none                         &none  &none  &none   &none  &kp LG(MINUS)  &kp C_VOL_DN
+&kp LS(TAB)   &none         &none         &none         &none            &none                         &none  &none  &none   &none  &kp LEFT       &kp RIGHT
+&trans        &trans        &mkp RCLK     &mkp LCLK     &mkp MCLK                          &bt BT_CLR  &none                                       &none
             >;
         };
 
@@ -154,6 +154,16 @@
 &kp C_PP               &kp LEFT_ARROW  &kp UP     &kp DOWN   &kp RIGHT   &kp TAB                 &kp LA(LG(LEFT))   &kp LS(LC(LG(N4)))  &kp LS(LC(LG(N4)))  &none      &kp F11    &kp F12
 &kp C_NEXT             &none           &none      &none      &kp LG(N1)  &kp LG(N2)              &kp LA(LG(RIGHT))  &none               &none               &none      &kp LEFT   &kp RIGHT
 &kp LG(LA(BACKSLASH))  &none           &mkp RCLK  &mkp LCLK  &mkp MCLK                   &trans  &trans                                                                           &none
+            >;
+        };
+
+        shortcut_layer {
+            label = "SHORT";
+            bindings = <
+&kp KP_NUMLOCK         &kp LS(N1)      &kp KP_N7  &kp KP_N5  &kp KP_N3   &kp KP_N1               &kp KP_N9          &kp KP_N0           &kp KP_N2           &kp KP_N4  &kp LG(MINUS)  &kp LG(PLUS)
+&kp C_PP               &kp LEFT_ARROW  &kp UP     &kp DOWN   &kp RIGHT   &kp TAB                 &kp LA(LG(LEFT))   &kp LS(LC(LG(N4)))  &kp LS(LC(LG(N4)))  &none      &kp LC(MINUS)  &kp LC(PLUS)
+&kp C_NEXT             &none           &none      &none      &kp LG(N1)  &kp LG(N2)              &kp LA(LG(RIGHT))  &none               &none               &none      &kp LEFT       &kp RIGHT
+&kp LG(LA(BACKSLASH))  &none           &mkp RCLK  &mkp LCLK  &mkp MCLK                   &trans  &trans                                                                               &none
             >;
         };
     };
