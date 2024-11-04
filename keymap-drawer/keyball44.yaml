@@ -43,7 +43,7 @@ layers:
   - {t: Dvorak_DeadState_v2, h: '$$mdi:gesture-tap-hold$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', s: 'Alt+ $$mdi:backspace$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: nav}
+  - {t: '$$mdi:arrow-right-bold$$', h: shortcut}
   Dvorak_DeadState:
   - $$mdi:keyboard-esc$$
   - '&'
@@ -145,7 +145,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F8
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+ +
   - $$mdi:volume-high$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -157,7 +157,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Gui+ -, s: Gui+ _}
   - $$mdi:volume-low$$
   - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -358,7 +358,52 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  shortcut:
+  - KP NUMLOCK
+  - {t: Sft+ 1, s: Sft+ !}
+  - KP 7
+  - KP 5
+  - KP 3
+  - KP 1
+  - KP 9
+  - KP 0
+  - KP 2
+  - KP 4
+  - {t: Gui+ -, s: Gui+ _}
+  - Gui+ +
+  - $$mdi:play-pause$$
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:keyboard-tab$$
+  - Alt+Gui+ $$mdi:arrow-left-bold$$
+  - {t: Sft+Ctl+Gui+ 4, s: Sft+Ctl+Gui+ $}
+  - {t: Sft+Ctl+Gui+ 4, s: Sft+Ctl+Gui+ $}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Ctl+ -, s: Ctl+ _}
+  - Ctl+ +
+  - $$mdi:skip-next$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Gui+ 1, s: Gui+ !}
+  - {t: Gui+ 2, s: Gui+ @}
+  - Alt+Gui+ $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: Gui+Alt+ \, s: Gui+Alt+ |}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:mouse-right-click-outline$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
 combos:
 - p: [1, 2]
   k: $$mdi:arrow-down-bold$$
