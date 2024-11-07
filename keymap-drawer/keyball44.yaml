@@ -382,8 +382,8 @@ layers:
   - {t: Sft+Ctl+Gui+ 4, s: Sft+Ctl+Gui+ $}
   - {t: Sft+Ctl+Gui+ 4, s: Sft+Ctl+Gui+ $}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Ctl+ -, s: Ctl+ _}
-  - Ctl+ +
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - $$mdi:skip-next$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
