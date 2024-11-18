@@ -1,5 +1,5 @@
 layers:
-  default:
+  QWRT:
   - {t: '$$mdi:keyboard-esc$$', s: '`'}
   - Q
   - W
@@ -10,8 +10,8 @@ layers:
   - U
   - I
   - O
-  - {t: P, h: mouse}
-  - {t: '[', h: mouse, s: '{'}
+  - {t: P, h: MOUSE}
+  - {t: '[', h: MOUSE, s: '{'}
   - {t: '$$mdi:apple-keyboard-control$$', s: '$$mdi:keyboard-tab$$'}
   - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -23,28 +23,28 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: RIGHT GUI, s: ':'}
-  - {t: '''', h: scroll, s: '"'}
+  - {t: '''', h: SCROLL, s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Z, h: nav}
+  - {t: Z, h: NAV}
   - X
   - C
   - V
-  - {t: B, h: mouse}
+  - {t: B, h: MOUSE}
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, h: function, s: '|'}
+  - {t: \, h: FUN, s: '|'}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
-  - Dvorak_DeadState_v2
+  - SYM
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', s: 'Alt+ $$mdi:backspace$$'}
-  - {t: '$$mdi:arrow-right-bold$$', h: shortcut}
-  Dvorak_DeadState:
+  - {t: '$$mdi:arrow-right-bold$$', h: SHORT}
+  NUM:
   - $$mdi:keyboard-esc$$
   - '&'
   - {t: '[', s: '{'}
@@ -68,7 +68,7 @@ layers:
   - ':'
   - $
   - {t: \, s: '|'}
-  - scroll
+  - SCROLL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '%'
   - '#'
@@ -83,13 +83,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: default, h: toggle}
+  - {t: QWRT, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  Dvorak_DeadState_v2:
+  SYM:
   - $$mdi:keyboard-esc$$
   - '1'
   - {t: '2', s: '@'}
@@ -113,7 +113,7 @@ layers:
   - Sft+ Q
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
-  - scroll
+  - SCROLL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Sft+ 1, s: Sft+ !}
   - {t: '=', s: +}
@@ -128,13 +128,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: default, h: toggle}
+  - {t: QWRT, h: toggle}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', type: held}
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:transfer$$', type: trans}
-  function:
+  FUN:
   - $$mdi:keyboard-tab$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
@@ -179,7 +179,7 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  mouse:
+  MOUSE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -224,7 +224,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  scroll:
+  SCROLL:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -269,7 +269,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  snipe:
+  SNIPE:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -314,7 +314,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  nav:
+  NAV:
   - KP NUMLOCK
   - {t: Sft+ 1, s: Sft+ !}
   - KP 7
@@ -359,7 +359,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  shortcut:
+  SHORT:
   - KP NUMLOCK
   - {t: Sft+ 1, s: Sft+ !}
   - KP 7
