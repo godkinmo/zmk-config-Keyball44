@@ -132,7 +132,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$', type: held}
   - $$mdi:keyboard-tab$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
   - $$mdi:keyboard-tab$$
