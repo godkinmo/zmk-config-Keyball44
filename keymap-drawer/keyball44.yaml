@@ -42,7 +42,7 @@ layers:
   - $$mdi:keyboard-space$$
   - SYM
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', s: 'Alt+ $$mdi:backspace$$'}
+  - {t: '$$mdi:backspace$$', s: 'Alt+$$mdi:backspace$$'}
   - {t: '$$mdi:arrow-right-bold$$', h: SHORT}
   NUM:
   - $$mdi:keyboard-esc$$
@@ -105,25 +105,25 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '~'
   - {t: ']', s: '}'}
-  - Sft+ W
-  - Sft+ E
+  - Sft+W
+  - Sft+E
   - KP MINUS
   - +
-  - Sft+ Z
-  - Sft+ Q
+  - Sft+Z
+  - Sft+Q
   - {t: '`', s: '~'}
   - {t: \, s: '|'}
   - SCROLL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Sft+ 1, s: Sft+ !}
+  - {t: Sft+1, s: Sft+!}
   - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Sft+ ', s: Sft+ "}
+  - {t: Sft+', s: Sft+"}
   - '|'
   - {t: '-', s: _}
-  - {t: 'Sft+ [', s: 'Sft+ {'}
-  - {t: 'Sft+ ]', s: 'Sft+ }'}
+  - {t: 'Sft+[', s: 'Sft+{'}
+  - {t: 'Sft+]', s: 'Sft+}'}
   - {t: '[', s: '{'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -145,7 +145,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F8
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+ +
+  - Gui++
   - $$mdi:volume-high$$
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -157,7 +157,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Gui+ -, s: Gui+ _}
+  - {t: Gui+-, s: Gui+_}
   - $$mdi:volume-low$$
   - $$mdi:keyboard-tab-reverse$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -316,7 +316,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   NAV:
   - KP NUMLOCK
-  - {t: Sft+ 1, s: Sft+ !}
+  - {t: Sft+1, s: Sft+!}
   - KP 7
   - KP 5
   - KP 3
@@ -333,9 +333,9 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-tab$$
-  - Alt+Gui+ $$mdi:arrow-left-bold$$
-  - {t: Sft+Ctl+Gui+ 4, s: Sft+Ctl+Gui+ $}
-  - {t: Sft+Ctl+Gui+ 4, s: Sft+Ctl+Gui+ $}
+  - Alt+Gui+$$mdi:arrow-left-bold$$
+  - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
+  - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F11
   - F12
@@ -343,15 +343,15 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Gui+ 1, s: Gui+ !}
-  - {t: Gui+ 2, s: Gui+ @}
-  - Alt+Gui+ $$mdi:arrow-right-bold$$
+  - {t: Gui+1, s: Gui+!}
+  - {t: Gui+2, s: Gui+@}
+  - Alt+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: Gui+Alt+ \, s: Gui+Alt+ |}
+  - {t: Gui+Alt+\, s: Gui+Alt+|}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
@@ -361,7 +361,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   SHORT:
   - KP NUMLOCK
-  - {t: Sft+ 1, s: Sft+ !}
+  - {t: Sft+1, s: Sft+!}
   - KP 7
   - KP 5
   - KP 3
@@ -370,39 +370,39 @@ layers:
   - KP 0
   - KP 2
   - KP 4
-  - {t: Gui+ -, s: Gui+ _}
-  - Gui+ +
-  - $$mdi:play-pause$$
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - {t: '-', s: _}
+  - +
+  - {t: '$$mdi:apple-keyboard-control$$', s: '$$mdi:keyboard-tab$$'}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '4', s: $}
   - $$mdi:keyboard-tab$$
-  - Alt+Gui+ $$mdi:arrow-left-bold$$
-  - {t: Sft+Ctl+Gui+ 4, s: Sft+Ctl+Gui+ $}
-  - {t: Sft+Ctl+Gui+ 4, s: Sft+Ctl+Gui+ $}
+  - Alt+Gui+$$mdi:arrow-left-bold$$
+  - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
+  - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-low$$
   - $$mdi:volume-high$$
-  - $$mdi:skip-next$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: Gui+ 1, s: Gui+ !}
-  - {t: Gui+ 2, s: Gui+ @}
-  - Alt+Gui+ $$mdi:arrow-right-bold$$
+  - {t: Gui+1, s: Gui+!}
+  - {t: Gui+2, s: Gui+@}
+  - Alt+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: Gui+Alt+ \, s: Gui+Alt+ |}
+  - {t: Gui+Alt+\, s: Gui+Alt+|}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
 combos:
 - p: [1, 2]
