@@ -12,7 +12,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -28,7 +27,7 @@
 };
 
 / {
-    // custom shift using mod-morph 
+    // custom shift using mod-morph
 
     behaviors {
         grave_escape: grave_escape {
