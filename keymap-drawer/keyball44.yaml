@@ -382,8 +382,8 @@ layers:
   - KP MINUS
   - Sft+Ctl+Gui+KP PLUS
   - F10
-  - F11
-  - F12
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
