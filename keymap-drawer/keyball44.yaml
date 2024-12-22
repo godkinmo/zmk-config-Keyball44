@@ -370,8 +370,8 @@ layers:
   - F8
   - F9
   - F10
-  - F11
-  - F12
+  - {t: '-', s: _}
+  - +
   - {t: '$$mdi:apple-keyboard-control$$', s: '$$mdi:keyboard-tab$$'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -382,8 +382,8 @@ layers:
   - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
   - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '-', s: _}
-  - +
+  - F11
+  - F12
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
