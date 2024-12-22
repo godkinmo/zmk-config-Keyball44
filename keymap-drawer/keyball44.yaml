@@ -360,18 +360,18 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   SHORT:
-  - KP NUMLOCK
-  - {t: Sft+1, s: Sft+!}
-  - KP 7
-  - KP 5
-  - KP 3
-  - KP 1
-  - KP 9
-  - KP 0
-  - KP 2
-  - KP 4
-  - {t: '-', s: _}
-  - +
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: '$$mdi:apple-keyboard-control$$', s: '$$mdi:keyboard-tab$$'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -382,8 +382,8 @@ layers:
   - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
   - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:volume-low$$
-  - $$mdi:volume-high$$
+  - {t: '-', s: _}
+  - +
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -398,7 +398,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: Gui+Alt+\, s: Gui+Alt+|}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:mouse-right-click-outline$$
+  - LEFT WIN
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
   - {t: '$$mdi:transfer$$', type: trans}
