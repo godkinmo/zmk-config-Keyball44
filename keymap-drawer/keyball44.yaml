@@ -379,8 +379,8 @@ layers:
   - {t: '4', s: $}
   - $$mdi:keyboard-tab$$
   - Alt+Gui+$$mdi:arrow-left-bold$$
-  - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
-  - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
+  - KP MINUS
+  - Sft+Ctl+Gui+KP PLUS
   - F10
   - F11
   - F12
