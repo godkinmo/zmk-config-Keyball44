@@ -346,8 +346,8 @@ layers:
   - {t: Gui+1, s: Gui+!}
   - {t: Gui+2, s: Gui+@}
   - Alt+Gui+$$mdi:arrow-right-bold$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Alt+Gui+\, s: Alt+Gui+|}
+  - {t: 'Alt+Gui+,', s: Alt+Gui+<}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
