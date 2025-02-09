@@ -92,8 +92,8 @@
             label = "NUM";
             bindings = <
 &kp ESC  &kp AMPS     &kp LBKT  &kp LBRC   &kp RIGHT_BRACE  &kp LPAR                &kp EQUAL      &kp STAR           &kp RPAR      &kp PLUS    &kp RBKT       &kp BACKSLASH
-&none    &kp TILDE    &kp AT    &kp LT     &kp GT           &kp MINUS               &kp GRAVE      &kp DOUBLE_QUOTES  &kp COLON     &kp DOLLAR  &kp BACKSLASH  &mo 5
-&none    &kp PERCENT  &kp HASH  &kp DQT    &none            &kp UNDER               &kp PIPE       &kp EXCLAMATION    &kp QUESTION  &kp CARET   &kp SLASH      &none
+&none    &kp TILDE    &kp AT    &kp LT     &kp GT           &kp MINUS               &kp GRAVE      &kp DOUBLE_QUOTES  &kp COLON     &kp DOLLAR  &kp SLASH      &mo 5
+&none    &kp PERCENT  &kp HASH  &kp DQT    &none            &kp UNDER               &kp PIPE       &kp EXCLAMATION    &kp QUESTION  &kp CARET   &kp BACKSLASH  &none
 &trans   &trans       &to 0     &kp SPACE  &sk LEFT_SHIFT                  &kp TAB  &kp BACKSPACE                                                              &trans
             >;
         };
@@ -101,10 +101,10 @@
         Dvorak_DeadState_v2 {
             label = "SYM";
             bindings = <
-&kp ESC         &kp NUMBER_1  &kp N2     &kp N3     &kp N4          &kp N5                             &kp N6       &kp N7     &kp N8        &kp N9        &kp N0    &kp BACKSLASH
-&none           &kp TILDE     &kp RBKT   &kp LS(W)  &kp LS(E)       &kp KP_MINUS                       &kp PLUS     &kp LS(Z)  &kp LS(Q)     &kp GRAVE     &kp BSLH  &mo 5
-&kp LEFT_SHIFT  &kp LS(N1)    &kp EQUAL  &trans     &trans          &kp LS(SINGLE_QUOTE)               &kp PIPE     &kp MINUS  &kp LS(LBKT)  &kp LS(RBKT)  &kp LBKT  &none
-&trans          &trans        &to 0      &kp SPACE  &sk LEFT_SHIFT                            &kp TAB  &kp LS(TAB)                                                   &trans
+&kp ESC         &kp NUMBER_1  &kp N2     &kp N3     &kp N4          &kp N5                             &kp N6       &kp N7     &kp N8        &kp N9        &kp N0         &kp BACKSLASH
+&none           &kp TILDE     &kp RBKT   &kp LS(W)  &kp LS(E)       &kp KP_MINUS                       &kp PLUS     &kp LS(Z)  &kp LS(Q)     &kp GRAVE     &kp LBKT       &mo 5
+&kp LEFT_SHIFT  &kp LS(N1)    &kp EQUAL  &trans     &trans          &kp LS(SINGLE_QUOTE)               &kp PIPE     &kp MINUS  &kp LS(LBKT)  &kp LS(RBKT)  &kp BACKSLASH  &none
+&trans          &trans        &to 0      &kp SPACE  &sk LEFT_SHIFT                            &kp TAB  &kp LS(TAB)                                                        &trans
             >;
         };
 
