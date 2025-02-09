@@ -67,7 +67,7 @@ layers:
   - '"'
   - ':'
   - $
-  - {t: \, s: '|'}
+  - {t: /, s: '?'}
   - SCROLL
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '%'
@@ -79,7 +79,7 @@ layers:
   - '!'
   - '?'
   - ^
-  - {t: /, s: '?'}
+  - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -112,7 +112,7 @@ layers:
   - Sft+Z
   - Sft+Q
   - {t: '`', s: '~'}
-  - {t: \, s: '|'}
+  - {t: '[', s: '{'}
   - SCROLL
   - $$mdi:apple-keyboard-shift$$
   - {t: Sft+1, s: Sft+!}
@@ -124,7 +124,7 @@ layers:
   - {t: '-', s: _}
   - {t: 'Sft+[', s: 'Sft+{'}
   - {t: 'Sft+]', s: 'Sft+}'}
-  - {t: '[', s: '{'}
+  - {t: \, s: '|'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
