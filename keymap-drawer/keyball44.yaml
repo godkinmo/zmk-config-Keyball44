@@ -352,8 +352,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: Gui+Alt+\, s: Gui+Alt+|}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Sft+Gui+1, s: Sft+Gui+!}
+  - {t: Sft+Gui+2, s: Sft+Gui+@}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
@@ -372,7 +372,7 @@ layers:
   - F8
   - F9
   - {t: '-', s: _}
-  - +
+  - {t: '=', s: +}
   - {t: '$$mdi:apple-keyboard-control$$', s: '$$mdi:keyboard-tab$$'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
