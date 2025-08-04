@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: keyball44}
 layers:
   QWRT:
   - {t: '$$mdi:keyboard-esc$$', s: '`'}
@@ -341,8 +342,8 @@ layers:
   - F12
   - $$mdi:skip-next$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: 'Alt+Gui+[', s: 'Alt+Gui+{'}
+  - {t: 'Alt+Gui+]', s: 'Alt+Gui+}'}
   - {t: Gui+1, s: Gui+!}
   - {t: Gui+2, s: Gui+@}
   - Alt+Gui+$$mdi:arrow-right-bold$$
