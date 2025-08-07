@@ -333,8 +333,8 @@ layers:
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:keyboard-tab$$
-  - Alt+Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
   - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -346,10 +346,10 @@ layers:
   - {t: 'Alt+Gui+]', s: 'Alt+Gui+}'}
   - {t: Gui+1, s: Gui+!}
   - {t: Gui+2, s: Gui+@}
-  - Alt+Gui+$$mdi:arrow-right-bold$$
-  - {t: Alt+Gui+\, s: Alt+Gui+|}
-  - {t: 'Alt+Gui+,', s: Alt+Gui+<}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Gui+3, s: Gui+#}
+  - {t: Gui+4, s: Gui+$}
+  - $$mdi:skip-previous$$
+  - $$mdi:skip-next$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: Sft+Gui+1, s: Sft+Gui+!}
