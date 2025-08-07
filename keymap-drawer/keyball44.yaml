@@ -337,7 +337,7 @@ layers:
   - Gui+$$mdi:arrow-right-bold$$
   - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
   - {t: Sft+Ctl+Gui+4, s: Sft+Ctl+Gui+$}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - PRINTSCREEN
   - F11
   - F12
   - $$mdi:skip-next$$
