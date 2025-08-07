@@ -80,7 +80,7 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESC          &kp Q           &kp W           &kp E        &kp R  &kp T                   &kp Y        &kp U              &kp I        &kp O           &lt 4 P             &lt 4 LBKT
+&grave_escape    &kp Q           &kp W           &kp E        &kp R  &kp T                   &kp Y        &kp U              &kp I        &kp O           &lt 4 P             &lt 4 LBKT
 &ctrl_guialttab  &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &kp F  &kp G                   &kp H        &mt RIGHT_SHIFT J  &mt RCTRL K  &mt LEFT_ALT L  &mt RIGHT_GUI SEMI  &lt 5 SQT
 &kp LEFT_SHIFT   &lt 7 Z         &kp X           &kp C        &kp V  &lt 4 B                 &kp N        &kp M              &kp COMMA    &kp DOT         &kp SLASH           &lt 3 BACKSLASH
 &kp LCTRL        &kp LALT        &kp LEFT_GUI    &kp SPACE    &mo 2               &kp ENTER  &super_bscp                                                                      &lt 8 RIGHT
