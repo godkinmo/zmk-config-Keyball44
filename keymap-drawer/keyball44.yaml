@@ -378,7 +378,7 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '4', s: $}
-  - $$mdi:keyboard-tab$$
+  - '5'
   - Alt+Gui+$$mdi:arrow-left-bold$$
   - KP MINUS
   - Sft+Ctl+Gui+KP PLUS
