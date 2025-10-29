@@ -358,7 +358,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - Gui+Alt+$$mdi:arrow-left-bold$$
   - Gui+Alt+$$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: 'Gui+Sft+$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   SHORT:
   - $$mdi:keyboard-esc$$
