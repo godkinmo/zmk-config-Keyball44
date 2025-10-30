@@ -359,7 +359,7 @@ layers:
   - Gui+Alt+$$mdi:arrow-left-bold$$
   - Gui+Alt+$$mdi:arrow-right-bold$$
   - {t: 'Gui+Sft+$$mdi:backspace$$', type: backspace}
-  - Sft+$$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   SHORT:
   - $$mdi:keyboard-esc$$
   - F1
@@ -402,7 +402,7 @@ layers:
   - LEFT WIN
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-scroll-wheel$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Sft+$$mdi:backspace-reverse-outline$$
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: held}
 combos:
