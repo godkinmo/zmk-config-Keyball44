@@ -359,7 +359,7 @@ layers:
   - Gui+Alt+$$mdi:arrow-left-bold$$
   - Gui+Alt+$$mdi:arrow-right-bold$$
   - {t: 'Gui+Sft+$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+$$mdi:backspace-reverse-outline$$
   SHORT:
   - $$mdi:keyboard-esc$$
   - F1
